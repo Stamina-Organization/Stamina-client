@@ -57,13 +57,14 @@ func _on_data():
 	# to receive data from server, and not get_packet directly when not
 	# using the MultiplayerAPI.
 	print("Got data from server : ", _client.get_peer(1).get_packet().get_string_from_utf8())
-	_send()
+	HandlerToServer.send(_client)
 
 func _send():
 	# You MUST always use get_peer(1).put_packet to send data to server,
 	# and not put_packet directly when not using the MultiplayerAPI.
-	var test:String = "Test Packet"
-	_client.get_peer(1).put_packet(test.to_utf8_buffer())
+	var test:Dictionary = {"test":"test1"}
+	var hehe = str(test)
+	_client.get_peer(1).put_packet(hehe.to_utf8_buffer())
 
 func connexion():
 	# Connect base signals to get notified of connection open, close, and errors.

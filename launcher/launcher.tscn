@@ -8,7 +8,7 @@
 [ext_resource type="Script" path="res://launcher/launcher.gd" id="5"]
 [ext_resource type="Texture2D" uid="uid://cg0tr0nqv77ul" path="res://assets/icons/connexion_false.png" id="6_cex0v"]
 [ext_resource type="PackedScene" uid="uid://mxxesmkgo4qg" path="res://launcher/credits/credits.tscn" id="7_yy8pa"]
-[ext_resource type="PackedScene" uid="uid://dgutnr0mrw114" path="res://launcher/unable_to_connect.tscn" id="9_mogc3"]
+[ext_resource type="PackedScene" uid="uid://cc4krhfc1gesg" path="res://launcher/unable_to_connect.tscn" id="9_mogc3"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_vob56"]
 texture = ExtResource( "3_imjjj" )

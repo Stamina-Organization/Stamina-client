@@ -18,3 +18,4 @@ config/icon="res://icon.png"
 [autoload]
 
 ChangeScene="*res://utilities/loading/ChangeScene.gd"
+HandlerToServer="*res://utilities/ServerHandling/HandlerToServer.gd"
