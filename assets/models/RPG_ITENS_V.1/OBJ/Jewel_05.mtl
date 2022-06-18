@@ -1,0 +1,12 @@
+# Blender MTL File: 'Jewel_05.blend'
+# Material Count: 1
+
+newmtl Purple_jewel05
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.066144 0.009919 0.252944
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2

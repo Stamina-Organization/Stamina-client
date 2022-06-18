@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://jerjks7g8gos"
+path="res://.godot/imported/CooperCoin.obj-3e9c49d800e728772140d1418442a59a.mesh"
+
+[deps]
+
+files=["res://.godot/imported/CooperCoin.obj-3e9c49d800e728772140d1418442a59a.mesh"]
+
+source_file="res://assets/models/RPG_ITENS_V.1/OBJ/CooperCoin.obj"
+dest_files=["res://.godot/imported/CooperCoin.obj-3e9c49d800e728772140d1418442a59a.mesh", "res://.godot/imported/CooperCoin.obj-3e9c49d800e728772140d1418442a59a.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

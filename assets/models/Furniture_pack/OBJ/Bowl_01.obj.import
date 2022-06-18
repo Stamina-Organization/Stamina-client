@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dvhsgur1jqj0x"
+path="res://.godot/imported/Bowl_01.obj-2a6bfa7019e83e8d0063dd2fd145fb23.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Bowl_01.obj-2a6bfa7019e83e8d0063dd2fd145fb23.mesh"]
+
+source_file="res://assets/models/Furniture_pack/OBJ/Bowl_01.obj"
+dest_files=["res://.godot/imported/Bowl_01.obj-2a6bfa7019e83e8d0063dd2fd145fb23.mesh", "res://.godot/imported/Bowl_01.obj-2a6bfa7019e83e8d0063dd2fd145fb23.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

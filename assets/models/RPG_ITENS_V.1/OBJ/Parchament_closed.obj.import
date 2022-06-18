@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ghib1g37ode6"
+path="res://.godot/imported/Parchament_closed.obj-8539d13e6a05d0c59edb7fd7d05b8359.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Parchament_closed.obj-8539d13e6a05d0c59edb7fd7d05b8359.mesh"]
+
+source_file="res://assets/models/RPG_ITENS_V.1/OBJ/Parchament_closed.obj"
+dest_files=["res://.godot/imported/Parchament_closed.obj-8539d13e6a05d0c59edb7fd7d05b8359.mesh", "res://.godot/imported/Parchament_closed.obj-8539d13e6a05d0c59edb7fd7d05b8359.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

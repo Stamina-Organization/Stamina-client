@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bi0ma64aq448x"
+path="res://.godot/imported/WizardShop.obj-5a523f6db8c2edec279d33c8f78f250c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/WizardShop.obj-5a523f6db8c2edec279d33c8f78f250c.mesh"]
+
+source_file="res://assets/models/Village_Pack/OBJ/WizardShop.obj"
+dest_files=["res://.godot/imported/WizardShop.obj-5a523f6db8c2edec279d33c8f78f250c.mesh", "res://.godot/imported/WizardShop.obj-5a523f6db8c2edec279d33c8f78f250c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

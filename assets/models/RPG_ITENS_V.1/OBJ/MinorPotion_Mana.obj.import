@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dqkmdyx01ehjg"
+path="res://.godot/imported/MinorPotion_Mana.obj-cd20fa0e9090031246f357f0fbefe617.mesh"
+
+[deps]
+
+files=["res://.godot/imported/MinorPotion_Mana.obj-cd20fa0e9090031246f357f0fbefe617.mesh"]
+
+source_file="res://assets/models/RPG_ITENS_V.1/OBJ/MinorPotion_Mana.obj"
+dest_files=["res://.godot/imported/MinorPotion_Mana.obj-cd20fa0e9090031246f357f0fbefe617.mesh", "res://.godot/imported/MinorPotion_Mana.obj-cd20fa0e9090031246f357f0fbefe617.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

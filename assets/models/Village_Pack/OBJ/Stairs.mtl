@@ -1,0 +1,12 @@
+# Blender MTL File: 'Stairs.blend'
+# Material Count: 1
+
+newmtl Wood_Stairs
+Ns 323.999994
+Ka 1.000000 1.000000 1.000000
+Kd 0.152897 0.061261 0.003742
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2

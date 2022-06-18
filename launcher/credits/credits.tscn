@@ -1,0 +1,77 @@
+[gd_scene load_steps=4 format=3 uid="uid://mxxesmkgo4qg"]
+
+[ext_resource type="FontData" uid="uid://bfaxywek0j4u3" path="res://assets/fonts/Kenney Future Narrow.ttf" id="1_38h1v"]
+
+[sub_resource type="Font" id="Font_gikt0"]
+data/0 = ExtResource( "1_38h1v" )
+
+[sub_resource type="Font" id="Font_u6su3"]
+data/0 = ExtResource( "1_38h1v" )
+
+[node name="Credits" type="Control"]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 288.0
+offset_top = 124.0
+offset_right = -288.0
+offset_bottom = -124.0
+
+[node name="Panel" type="Panel" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="Label" type="Label" parent="Panel"]
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -56.5
+offset_right = 56.5
+offset_bottom = 58.0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 2
+theme_override_fonts/font = SubResource( "Font_gikt0" )
+theme_override_font_sizes/font_size = 22
+text = "
+Crédits :"
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Panel"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 17.0
+offset_top = 75.0
+offset_right = -17.0
+offset_bottom = -10.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 2
+theme_override_fonts/normal_font = SubResource( "Font_u6su3" )
+bbcode_enabled = true
+text = "[center]Développeurs :
+
+Gipson62
+TheBacou
+
+Musique :
+
+Auboutdufil.com
+
+Game Engine :
+
+Godot 4
+
+Supports :
+
+Mefiodall
+Gipson62
+TheBacou
+Quentin72000
+Herokin
+\"Yuu²
+TheIron7
+Gaminger
+Lainkarton
+Gamelle-Geeks
+Cardiaque16
+[/center]"
+metadata/_edit_layout_mode = 1

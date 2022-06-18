@@ -1,0 +1,175 @@
+[gd_scene load_steps=14 format=3 uid="uid://p8n8p8u4lagb"]
+
+[ext_resource type="Script" path="res://launcher/startgame.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://krhs62h4520w" path="res://assets/icons/settings-icons.png" id="2"]
+[ext_resource type="PackedScene" uid="uid://ugugowrhfdnf" path="res://launcher/settings/settingswindows.tscn" id="3"]
+[ext_resource type="Texture2D" uid="uid://dcclxivjv6us6" path="res://assets/textures/971943.jpg" id="3_imjjj"]
+[ext_resource type="FontData" uid="uid://bfaxywek0j4u3" path="res://assets/fonts/Kenney Future Narrow.ttf" id="4"]
+[ext_resource type="Script" path="res://launcher/launcher.gd" id="5"]
+[ext_resource type="PackedScene" uid="uid://mxxesmkgo4qg" path="res://launcher/credits/credits.tscn" id="7_yy8pa"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_vob56"]
+texture = ExtResource( "3_imjjj" )
+expand_margin_left = 1.0
+region_rect = Rect2(0, 0, 3840, 2160)
+
+[sub_resource type="Font" id="Font_whhmf"]
+data/0 = ExtResource( "4" )
+
+[sub_resource type="Font" id="Font_4uky0"]
+data/0 = ExtResource( "4" )
+
+[sub_resource type="Font" id="Font_hpr3u"]
+data/0 = ExtResource( "4" )
+
+[sub_resource type="Font" id="Font_g2qv6"]
+data/0 = ExtResource( "4" )
+
+[sub_resource type="Font" id="Font_44841"]
+data/0 = ExtResource( "4" )
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( "5" )
+
+[node name="Background" type="Panel" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="content" type="Panel" parent="Background"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_vertical = 3
+theme_override_styles/panel = SubResource( "StyleBoxTexture_vob56" )
+metadata/_edit_layout_mode = 1
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Background/content"]
+offset_left = 525.0
+offset_top = 29.0
+offset_right = 988.0
+offset_bottom = 490.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 2
+theme_override_fonts/normal_font = SubResource( "Font_whhmf" )
+bbcode_enabled = true
+text = "[color=green]Patch Notes 0.0.2 preview : [/color]
+
+
+- Ajout d'un système permettant de quitter le jeu et de retourner au launcher de base  
+
+- Ajout d'un système d'options graphiques améliorant le rendu du jeu avec sauvegarde des informations (en cours, incomplet)   
+   \"=> Améliorations graphique actuelle : 
+     - La résolution se setup automatiquement en fonction de l'écran  
+     - Le jeu se met en grand écran automatiquement lorsque vous quittez le launcher et reviens en fenêtré lorsque vous quittez le jeu  
+     - Amélioration globale des graphismes du jeu  
+
+- Changement de la police d'écriture pour rendre le tout plus agréable à l'oeil  
+
+- Passage sur Godot 4 version de développement (des bugs sont donc probables dû au game engine)  
+
+- Caméra troisième personne :
+   \"=> Améliorations actuelles 
+     - Collision avec l'environnement 
+     - Correction du bug de rotation de la caméra 
+
+- Nouveau launcher plus agréables à l'oeil et moins archaïque  
+
+- Système de cast de spell (il permet de tirer une petite capsule dans une direction sur une certaine distance)  
+
+- Ajout d'une barre de chargement lorsqu'on lance le jeu en lui meme (elle ne se remplit pas encore à cause d'un probleme réglé dans le patch 0.0.2-stable
+
+- Dans le menu settings, ajout des touches utilisés in game  
+
+- Ajout d'une page de crédits 
+
+
+[color=red] Bugs connu [/color]
+
+- Problème pour escalader les pentes (le bug n'arrive pas tout le temps, normalement correction dans la version stable )
+
+- A cause de la mise à jour du moteur de jeu, le type de paramètres graphiques est différent, donc le menu des settings a été retiré pour pouvoir le recréer lors d'une prochaine mise à jour
+
+
+
+
+[color=green]Patch Notes 0.0.1 :[/color]
+
+
+[fill]- Ajout d'un système de mise à jour disponible pour tous.
+
+- Création d'un système de caméra troisième personne (actuellement incomplet avec un bug de rotation, correction lors du prochain patch)
+
+- Début d'un système d'options actuellement incomplet, pas de date quant à sa completion.[/fill]
+
+- Aggrandissement de la map.
+
+
+
+[color=red]/!\\Bug connu : [/color]
+
+- Caméra à la troisième personne
+
+- Menu des options qui disparait quand on clique dessus
+
+- Glissade sur les pentes"
+
+[node name="Label" type="Label" parent="Background/content"]
+offset_left = 67.0
+offset_top = 50.0
+offset_right = 268.0
+offset_bottom = 93.0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 2
+theme_override_fonts/font = SubResource( "Font_4uky0" )
+theme_override_font_sizes/font_size = 26
+text = "Stamina Game"
+
+[node name="StartGamee" type="Button" parent="Background/content"]
+offset_left = 731.0
+offset_top = 502.0
+offset_right = 973.0
+offset_bottom = 563.0
+theme_override_fonts/font = SubResource( "Font_hpr3u" )
+text = "Lancer une game"
+script = ExtResource( "1" )
+
+[node name="SettingsButton" type="Button" parent="Background/content"]
+offset_left = 50.0
+offset_top = 496.0
+offset_right = 253.0
+offset_bottom = 561.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 2
+theme_override_fonts/font = SubResource( "Font_g2qv6" )
+theme_override_font_sizes/font_size = 20
+text = "Paramètres"
+icon = ExtResource( "2" )
+flat = true
+expand_icon = true
+
+[node name="CreditsButton" type="Button" parent="Background/content"]
+offset_left = 12.0
+offset_top = 9.0
+offset_right = 75.0
+offset_bottom = 40.0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 2
+theme_override_fonts/font = SubResource( "Font_44841" )
+text = "Crédits"
+flat = true
+
+[node name="Settings" parent="Background" instance=ExtResource( "3" )]
+
+[node name="Credits" parent="Background" instance=ExtResource( "7_yy8pa" )]
+
+[connection signal="pressed" from="Background/content/StartGamee" to="Background/content/StartGamee" method="_on_start_gamee_pressed"]
+[connection signal="pressed" from="Background/content/SettingsButton" to="." method="_on_SettingsButton_pressed"]
+[connection signal="pressed" from="Background/content/CreditsButton" to="." method="_on_credits_button_pressed"]

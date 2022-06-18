@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://xk4ln40be4e7"
+path="res://.godot/imported/MediumPotion_Stamina.obj-2fe83816cb0c8ed4ce700533df4689d8.mesh"
+
+[deps]
+
+files=["res://.godot/imported/MediumPotion_Stamina.obj-2fe83816cb0c8ed4ce700533df4689d8.mesh"]
+
+source_file="res://assets/models/RPG_ITENS_V.1/OBJ/MediumPotion_Stamina.obj"
+dest_files=["res://.godot/imported/MediumPotion_Stamina.obj-2fe83816cb0c8ed4ce700533df4689d8.mesh", "res://.godot/imported/MediumPotion_Stamina.obj-2fe83816cb0c8ed4ce700533df4689d8.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

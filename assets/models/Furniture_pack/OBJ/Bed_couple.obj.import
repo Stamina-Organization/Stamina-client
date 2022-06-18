@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://si6qgk1kn40b"
+path="res://.godot/imported/Bed_couple.obj-13feaf5c4f264cc80a685fcc8112a526.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Bed_couple.obj-13feaf5c4f264cc80a685fcc8112a526.mesh"]
+
+source_file="res://assets/models/Furniture_pack/OBJ/Bed_couple.obj"
+dest_files=["res://.godot/imported/Bed_couple.obj-13feaf5c4f264cc80a685fcc8112a526.mesh", "res://.godot/imported/Bed_couple.obj-13feaf5c4f264cc80a685fcc8112a526.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

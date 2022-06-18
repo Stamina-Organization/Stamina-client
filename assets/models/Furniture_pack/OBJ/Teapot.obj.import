@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dxpi3f2yh1kei"
+path="res://.godot/imported/Teapot.obj-960b4389d28963c53469cc524a3b77ce.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Teapot.obj-960b4389d28963c53469cc524a3b77ce.mesh"]
+
+source_file="res://assets/models/Furniture_pack/OBJ/Teapot.obj"
+dest_files=["res://.godot/imported/Teapot.obj-960b4389d28963c53469cc524a3b77ce.mesh", "res://.godot/imported/Teapot.obj-960b4389d28963c53469cc524a3b77ce.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

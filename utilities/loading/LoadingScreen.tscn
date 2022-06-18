@@ -1,0 +1,38 @@
+[gd_scene load_steps=3 format=3 uid="uid://dgvrc7ukhusui"]
+
+[ext_resource type="FontData" uid="uid://bfaxywek0j4u3" path="res://assets/fonts/Kenney Future Narrow.ttf" id="2_spe0c"]
+
+[sub_resource type="Font" id="Font_k6obt"]
+data/0 = ExtResource( "2_spe0c" )
+
+[node name="LoadingScreen" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="ProgressBar" type="ProgressBar" parent="."]
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 62.0
+offset_top = -122.0
+offset_right = -58.0
+offset_bottom = -77.0
+grow_horizontal = 2
+grow_vertical = 0
+step = 1.0
+metadata/_edit_layout_mode = 1
+
+[node name="Error" type="RichTextLabel" parent="."]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+theme_override_fonts/normal_font = SubResource( "Font_k6obt" )
+theme_override_font_sizes/normal_font_size = 96
+bbcode_enabled = true
+text = "
+
+[center][color=red]LOADING ERROR[/color][/center]"
+
+[node name="TextureProgressBar" type="TextureProgressBar" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0

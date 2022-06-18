@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bkh787ye5u5ub"
+path="res://.godot/imported/Thigh.obj-7ffb8a0eb8bda3d46ea0dc4a459863f8.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Thigh.obj-7ffb8a0eb8bda3d46ea0dc4a459863f8.mesh"]
+
+source_file="res://assets/models/RPG_ITENS_V.1/OBJ/Thigh.obj"
+dest_files=["res://.godot/imported/Thigh.obj-7ffb8a0eb8bda3d46ea0dc4a459863f8.mesh", "res://.godot/imported/Thigh.obj-7ffb8a0eb8bda3d46ea0dc4a459863f8.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

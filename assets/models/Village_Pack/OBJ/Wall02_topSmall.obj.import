@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://co86k3am0uf7g"
+path="res://.godot/imported/Wall02_topSmall.obj-0d883d49cfb8f9d3768ea99d0d11cc95.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Wall02_topSmall.obj-0d883d49cfb8f9d3768ea99d0d11cc95.mesh"]
+
+source_file="res://assets/models/Village_Pack/OBJ/Wall02_topSmall.obj"
+dest_files=["res://.godot/imported/Wall02_topSmall.obj-0d883d49cfb8f9d3768ea99d0d11cc95.mesh", "res://.godot/imported/Wall02_topSmall.obj-0d883d49cfb8f9d3768ea99d0d11cc95.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

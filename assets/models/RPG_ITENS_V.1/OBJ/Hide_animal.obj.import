@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bf811i43033e6"
+path="res://.godot/imported/Hide_animal.obj-75cdd01135512b7c84c7bb2a2ad9bbae.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Hide_animal.obj-75cdd01135512b7c84c7bb2a2ad9bbae.mesh"]
+
+source_file="res://assets/models/RPG_ITENS_V.1/OBJ/Hide_animal.obj"
+dest_files=["res://.godot/imported/Hide_animal.obj-75cdd01135512b7c84c7bb2a2ad9bbae.mesh", "res://.godot/imported/Hide_animal.obj-75cdd01135512b7c84c7bb2a2ad9bbae.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

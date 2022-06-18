@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dpsiwryg7okqt"
+path="res://.godot/imported/Cup_02.obj-0b1be1c8cb0d91f2f59c8362e378a343.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Cup_02.obj-0b1be1c8cb0d91f2f59c8362e378a343.mesh"]
+
+source_file="res://assets/models/Furniture_pack/OBJ/Cup_02.obj"
+dest_files=["res://.godot/imported/Cup_02.obj-0b1be1c8cb0d91f2f59c8362e378a343.mesh", "res://.godot/imported/Cup_02.obj-0b1be1c8cb0d91f2f59c8362e378a343.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

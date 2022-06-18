@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bf6y6oags0by7"
+path="res://.godot/imported/Dresser_01.obj-16d26aead6931bb6773d1e38d1892ee4.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Dresser_01.obj-16d26aead6931bb6773d1e38d1892ee4.mesh"]
+
+source_file="res://assets/models/Furniture_pack/OBJ/Dresser_01.obj"
+dest_files=["res://.godot/imported/Dresser_01.obj-16d26aead6931bb6773d1e38d1892ee4.mesh", "res://.godot/imported/Dresser_01.obj-16d26aead6931bb6773d1e38d1892ee4.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

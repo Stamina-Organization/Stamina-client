@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dkgwkwn02p1p0"
+path="res://.godot/imported/MinorPotion_Health.obj-7503d4eed1f399b7d6e97dc44184724d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/MinorPotion_Health.obj-7503d4eed1f399b7d6e97dc44184724d.mesh"]
+
+source_file="res://assets/models/RPG_ITENS_V.1/OBJ/MinorPotion_Health.obj"
+dest_files=["res://.godot/imported/MinorPotion_Health.obj-7503d4eed1f399b7d6e97dc44184724d.mesh", "res://.godot/imported/MinorPotion_Health.obj-7503d4eed1f399b7d6e97dc44184724d.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

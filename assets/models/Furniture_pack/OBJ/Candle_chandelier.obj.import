@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://8tesa55gs778"
+path="res://.godot/imported/Candle_chandelier.obj-c7f2e171e2ff4e6e2521ceb36c7e4f4a.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Candle_chandelier.obj-c7f2e171e2ff4e6e2521ceb36c7e4f4a.mesh"]
+
+source_file="res://assets/models/Furniture_pack/OBJ/Candle_chandelier.obj"
+dest_files=["res://.godot/imported/Candle_chandelier.obj-c7f2e171e2ff4e6e2521ceb36c7e4f4a.mesh", "res://.godot/imported/Candle_chandelier.obj-c7f2e171e2ff4e6e2521ceb36c7e4f4a.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

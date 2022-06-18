@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dc1jcmyiyba4k"
+path="res://.godot/imported/Necklace_02.obj-214b908e1febad3f17bdbf4cbb33758b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Necklace_02.obj-214b908e1febad3f17bdbf4cbb33758b.mesh"]
+
+source_file="res://assets/models/RPG_ITENS_V.1/OBJ/Necklace_02.obj"
+dest_files=["res://.godot/imported/Necklace_02.obj-214b908e1febad3f17bdbf4cbb33758b.mesh", "res://.godot/imported/Necklace_02.obj-214b908e1febad3f17bdbf4cbb33758b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

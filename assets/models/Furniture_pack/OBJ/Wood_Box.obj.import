@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dcma5alwm062g"
+path="res://.godot/imported/Wood_Box.obj-24dc78b2114cc77575adcb908efd75af.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Wood_Box.obj-24dc78b2114cc77575adcb908efd75af.mesh"]
+
+source_file="res://assets/models/Furniture_pack/OBJ/Wood_Box.obj"
+dest_files=["res://.godot/imported/Wood_Box.obj-24dc78b2114cc77575adcb908efd75af.mesh", "res://.godot/imported/Wood_Box.obj-24dc78b2114cc77575adcb908efd75af.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://crrf6jqfhgorh"
+path="res://.godot/imported/Wood_Door.obj-12404543490cbd3deff22cc14d940349.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Wood_Door.obj-12404543490cbd3deff22cc14d940349.mesh"]
+
+source_file="res://assets/models/Village_Pack/OBJ/Wood_Door.obj"
+dest_files=["res://.godot/imported/Wood_Door.obj-12404543490cbd3deff22cc14d940349.mesh", "res://.godot/imported/Wood_Door.obj-12404543490cbd3deff22cc14d940349.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

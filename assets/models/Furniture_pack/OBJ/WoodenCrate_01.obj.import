@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dxnq3xp48ci41"
+path="res://.godot/imported/WoodenCrate_01.obj-3e4e4a8a0ae405c1a53c90856021342a.mesh"
+
+[deps]
+
+files=["res://.godot/imported/WoodenCrate_01.obj-3e4e4a8a0ae405c1a53c90856021342a.mesh"]
+
+source_file="res://assets/models/Furniture_pack/OBJ/WoodenCrate_01.obj"
+dest_files=["res://.godot/imported/WoodenCrate_01.obj-3e4e4a8a0ae405c1a53c90856021342a.mesh", "res://.godot/imported/WoodenCrate_01.obj-3e4e4a8a0ae405c1a53c90856021342a.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cd628wuerveco"
+path="res://.godot/imported/Anvil.obj-4fb12e2d497dae1a2d479b91aa039f35.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Anvil.obj-4fb12e2d497dae1a2d479b91aa039f35.mesh"]
+
+source_file="res://assets/models/Village_Pack/OBJ/Anvil.obj"
+dest_files=["res://.godot/imported/Anvil.obj-4fb12e2d497dae1a2d479b91aa039f35.mesh", "res://.godot/imported/Anvil.obj-4fb12e2d497dae1a2d479b91aa039f35.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

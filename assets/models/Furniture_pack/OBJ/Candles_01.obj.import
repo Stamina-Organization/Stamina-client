@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dq0ioocwrq8jj"
+path="res://.godot/imported/Candles_01.obj-cd43b64d965a91965a6757f04051daf1.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Candles_01.obj-cd43b64d965a91965a6757f04051daf1.mesh"]
+
+source_file="res://assets/models/Furniture_pack/OBJ/Candles_01.obj"
+dest_files=["res://.godot/imported/Candles_01.obj-cd43b64d965a91965a6757f04051daf1.mesh", "res://.godot/imported/Candles_01.obj-cd43b64d965a91965a6757f04051daf1.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

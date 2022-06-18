@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bdarumwui80sf"
+path="res://.godot/imported/Bread.obj-f60ef5998ca85bf0e10be0d2371f5ff9.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Bread.obj-f60ef5998ca85bf0e10be0d2371f5ff9.mesh"]
+
+source_file="res://assets/models/Village_Pack/OBJ/Bread.obj"
+dest_files=["res://.godot/imported/Bread.obj-f60ef5998ca85bf0e10be0d2371f5ff9.mesh", "res://.godot/imported/Bread.obj-f60ef5998ca85bf0e10be0d2371f5ff9.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

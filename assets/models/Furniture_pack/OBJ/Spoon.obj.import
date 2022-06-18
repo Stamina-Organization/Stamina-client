@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dsx6jab2iqcra"
+path="res://.godot/imported/Spoon.obj-d4a911f01251aca210a86d7ae8ba6123.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Spoon.obj-d4a911f01251aca210a86d7ae8ba6123.mesh"]
+
+source_file="res://assets/models/Furniture_pack/OBJ/Spoon.obj"
+dest_files=["res://.godot/imported/Spoon.obj-d4a911f01251aca210a86d7ae8ba6123.mesh", "res://.godot/imported/Spoon.obj-d4a911f01251aca210a86d7ae8ba6123.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

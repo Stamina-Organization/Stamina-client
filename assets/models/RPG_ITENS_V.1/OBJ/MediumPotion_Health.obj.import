@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://csloujwsytoqi"
+path="res://.godot/imported/MediumPotion_Health.obj-41fe39391bd997279818ece321f568c0.mesh"
+
+[deps]
+
+files=["res://.godot/imported/MediumPotion_Health.obj-41fe39391bd997279818ece321f568c0.mesh"]
+
+source_file="res://assets/models/RPG_ITENS_V.1/OBJ/MediumPotion_Health.obj"
+dest_files=["res://.godot/imported/MediumPotion_Health.obj-41fe39391bd997279818ece321f568c0.mesh", "res://.godot/imported/MediumPotion_Health.obj-41fe39391bd997279818ece321f568c0.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

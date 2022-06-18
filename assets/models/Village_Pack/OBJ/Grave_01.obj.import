@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ceoej52sfrfcv"
+path="res://.godot/imported/Grave_01.obj-9f4f8f229bb97b893b02b12f2acb9ba5.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Grave_01.obj-9f4f8f229bb97b893b02b12f2acb9ba5.mesh"]
+
+source_file="res://assets/models/Village_Pack/OBJ/Grave_01.obj"
+dest_files=["res://.godot/imported/Grave_01.obj-9f4f8f229bb97b893b02b12f2acb9ba5.mesh", "res://.godot/imported/Grave_01.obj-9f4f8f229bb97b893b02b12f2acb9ba5.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dx35tswgug5bc"
+path="res://.godot/imported/Cake.obj-2718d5023a3b31df61887d7f14619958.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Cake.obj-2718d5023a3b31df61887d7f14619958.mesh"]
+
+source_file="res://assets/models/Village_Pack/OBJ/Cake.obj"
+dest_files=["res://.godot/imported/Cake.obj-2718d5023a3b31df61887d7f14619958.mesh", "res://.godot/imported/Cake.obj-2718d5023a3b31df61887d7f14619958.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

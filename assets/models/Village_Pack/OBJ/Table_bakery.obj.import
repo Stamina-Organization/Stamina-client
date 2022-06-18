@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://djwh4tu3y0b2q"
+path="res://.godot/imported/Table_bakery.obj-4b9f6f7ab3567d59fce0ec434e5194fc.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Table_bakery.obj-4b9f6f7ab3567d59fce0ec434e5194fc.mesh"]
+
+source_file="res://assets/models/Village_Pack/OBJ/Table_bakery.obj"
+dest_files=["res://.godot/imported/Table_bakery.obj-4b9f6f7ab3567d59fce0ec434e5194fc.mesh", "res://.godot/imported/Table_bakery.obj-4b9f6f7ab3567d59fce0ec434e5194fc.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

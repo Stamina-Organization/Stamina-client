@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ibyhfy71lomk"
+path="res://.godot/imported/GraveYard_Door.obj-e3ac2ecf01fc85b144e73eb1f561b31b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/GraveYard_Door.obj-e3ac2ecf01fc85b144e73eb1f561b31b.mesh"]
+
+source_file="res://assets/models/Village_Pack/OBJ/GraveYard_Door.obj"
+dest_files=["res://.godot/imported/GraveYard_Door.obj-e3ac2ecf01fc85b144e73eb1f561b31b.mesh", "res://.godot/imported/GraveYard_Door.obj-e3ac2ecf01fc85b144e73eb1f561b31b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

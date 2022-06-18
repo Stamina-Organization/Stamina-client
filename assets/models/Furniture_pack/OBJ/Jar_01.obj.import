@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dj4lvc2r6bhx8"
+path="res://.godot/imported/Jar_01.obj-f3775e7840151a20cc0cb2b328ec1202.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Jar_01.obj-f3775e7840151a20cc0cb2b328ec1202.mesh"]
+
+source_file="res://assets/models/Furniture_pack/OBJ/Jar_01.obj"
+dest_files=["res://.godot/imported/Jar_01.obj-f3775e7840151a20cc0cb2b328ec1202.mesh", "res://.godot/imported/Jar_01.obj-f3775e7840151a20cc0cb2b328ec1202.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
