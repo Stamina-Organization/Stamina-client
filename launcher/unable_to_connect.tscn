@@ -1,0 +1,35 @@
+[gd_scene load_steps=3 format=3 uid="uid://dgutnr0mrw114"]
+
+[ext_resource type="FontData" uid="uid://bfaxywek0j4u3" path="res://assets/fonts/Kenney Future Narrow.ttf" id="1_73wm3"]
+
+[sub_resource type="Font" id="Font_x10mk"]
+data/0 = ExtResource( "1_73wm3" )
+
+[node name="UnableToConnect" type="Control"]
+visible = false
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -119.0
+offset_top = -71.0
+offset_right = 119.0
+offset_bottom = 71.0
+
+[node name="Panel" type="Panel" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Panel"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/default_color = Color(1, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 2
+theme_override_fonts/normal_font = SubResource( "Font_x10mk" )
+bbcode_enabled = true
+text = "
+[center]La connexion a été interrompue ou ne peut pas être établie, veuillez réessayer plus tard.[/center]"
+metadata/_edit_layout_mode = 1
