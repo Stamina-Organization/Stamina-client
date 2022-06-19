@@ -57,7 +57,7 @@ func _on_data():
 	# to receive data from server, and not get_packet directly when not
 	# using the MultiplayerAPI.
 	print("Got data from server : ", _client.get_peer(1).get_packet().get_string_from_utf8())
-	HandlerToServer.send(_client)
+	HandlerToServer.send_data(_client)
 
 func _send():
 	# You MUST always use get_peer(1).put_packet to send data to server,
