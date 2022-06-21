@@ -1,0 +1,33 @@
+[gd_scene load_steps=6 format=3 uid="uid://bh63jqfleuqqw"]
+
+[ext_resource type="Script" path="res://actors/Players/Characters/TestCharacters/Player.gd" id="1_5wvdb"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_7rfem"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bkqlp"]
+albedo_color = Color(0.411765, 0.470588, 1, 1)
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_pxlxm"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_r8n3t"]
+
+[node name="CharacterBody3D" type="CharacterBody3D"]
+script = ExtResource( "1_5wvdb" )
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource( "CapsuleShape3D_7rfem" )
+
+[node name="Body" type="MeshInstance3D" parent="."]
+material_override = SubResource( "StandardMaterial3D_bkqlp" )
+mesh = SubResource( "CapsuleMesh_pxlxm" )
+
+[node name="Eyes" type="MeshInstance3D" parent="Body"]
+transform = Transform3D(0.5, 0, 0, 0, 0.25, 0, 0, 0, 0.25, 0, 0.5, -0.5)
+mesh = SubResource( "BoxMesh_r8n3t" )
+
+[node name="Node3D" type="Node3D" parent="."]
+transform = Transform3D(-0.999999, 0, -0.00120416, 0, 1, 0, 0.00120416, 0, -0.999999, 0, 0.65744, -0.470435)
+
+[node name="Camera3D" type="Camera3D" parent="Node3D"]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, -0.12, 0.01)
+current = true
