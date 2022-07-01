@@ -1,7 +1,7 @@
 extends Node
 
 # The URL we will connect to
-@export var SOCKET_URL = "ws://localhost:4545"
+@export var SOCKET_URL = "ws://83.150.217.31:2025"
 # Our WebSocketClient instance
 var client = WebSocketClient.new()
 var statut_connexion: bool
