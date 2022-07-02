@@ -38,7 +38,7 @@ func send_data(client):
 	client.get_peer(1).put_packet(data.to_utf8_buffer())
 
 func set_data_player(position: Vector3):
-	data_to_send["roomID"]["playerID"]["Player"]["Position"] = position
+	data_to_send["roomID"]["playerID"]["Player"]["Position"] = str(position)
 
 func set_data_entity(position: Vector3):
 	pass
