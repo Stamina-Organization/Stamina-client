@@ -1,7 +1,7 @@
 extends Node
 
 # The URL we will connect to
-@export var SOCKET_URL = "ws://83.150.217.31:2025"
+@export var SOCKET_URL = "ws://localhost:2025"
 # Our WebSocketClient instance
 var client = WebSocketClient.new()
 var statut_connexion: bool
@@ -17,6 +17,7 @@ func _process(_delta):
 func _on_connection_closed(was_clean = false):
 	print("Closed, clean : ", was_clean)
 	set_process(false)
+	_set_statut(false)
 
 func _on_connected(proto = ""):
 	print("Connected with protocole : ", proto)
@@ -27,7 +28,6 @@ func _on_data():
 	# to receive data from server, and not get_packet directly when not
 	# using the MultiplayerAPI.
 	print("Got data from server : ", client.get_peer(1).get_packet().get_string_from_utf8())
-	HandlerToServer.send_data(client)
 
 func _send():
 	# You MUST always use get_peer(1).put_packet to send data to server,
