@@ -1,5 +1,13 @@
 extends Node
 
+var version_request = {
+	"client_type": "api",
+	"method":"version",
+	"data":{
+		"version": 000
+	}
+}
+
 # The URL we will connect to
 @export var SOCKET_URL = "ws://localhost:2025"
 # Our WebSocketClient instance
