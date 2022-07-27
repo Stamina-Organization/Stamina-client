@@ -49,6 +49,7 @@ func _http_request_completed(result, response_code, headers, body):
 		save_file["connected"] = true
 		SaveFile.save_data()
 		login_window.hide()
+		HandlerToServer.send_connexion_info(Connexion.client)
 	elif response["code"] == 404:
 		BadData.show()
 		BadPassword.show()

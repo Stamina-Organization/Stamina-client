@@ -19,7 +19,7 @@ func _ready():
 func _process(_delta):
 	
 	scene_load_status = ResourceLoader.load_threaded_get_status(real_path, progress)
-	loading_bar.value = progress[0] * 100
+	loading_bar.value = progress[0] * 1000
 	
 	if scene_load_status == ResourceLoader.THREAD_LOAD_FAILED:
 		error.show()

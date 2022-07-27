@@ -42,3 +42,10 @@ func set_data_player(position: Vector3):
 
 func set_data_entity(position: Vector3):
 	pass
+
+func send_connexion_info(client):
+	var connexion_data = {
+		"connexion":"account",
+		"data": SaveFile.game_data
+	}
+	client.get_peer(1).put_packet(str(connexion_data).to_utf8_buffer())

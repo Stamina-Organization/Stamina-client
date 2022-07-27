@@ -9,7 +9,7 @@ var version_request = {
 }
 
 # The URL we will connect to
-@export var SOCKET_URL = "ws://localhost:2025"
+@export var SOCKET_URL = "ws://83.150.217.31:2025"
 # Our WebSocketClient instance
 var client = WebSocketClient.new()
 var statut_connexion: bool
@@ -30,6 +30,8 @@ func _on_connection_closed(was_clean = false):
 func _on_connected(proto = ""):
 	print("Connected with protocole : ", proto)
 	_set_statut(true)
+	if SaveFile.game_data["connected"] == true:
+		HandlerToServer.send_connexion_info(client)
 
 func _on_data():
 	# Print the received packet, you MUST always use get_peer(1).get_packet
