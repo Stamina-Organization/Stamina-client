@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=3 uid="uid://p8n8p8u4lagb"]
+[gd_scene load_steps=17 format=3 uid="uid://p8n8p8u4lagb"]
 
 [ext_resource type="Script" path="res://launcher/startgame.gd" id="1"]
 [ext_resource type="Texture2D" uid="uid://krhs62h4520w" path="res://assets/icons/settings-icons.png" id="2"]
@@ -9,6 +9,7 @@
 [ext_resource type="Texture2D" uid="uid://cg0tr0nqv77ul" path="res://assets/icons/connexion_false.png" id="6_cex0v"]
 [ext_resource type="PackedScene" uid="uid://mxxesmkgo4qg" path="res://launcher/credits/credits.tscn" id="7_yy8pa"]
 [ext_resource type="PackedScene" uid="uid://cc4krhfc1gesg" path="res://launcher/unable_to_connect.tscn" id="9_mogc3"]
+[ext_resource type="PackedScene" uid="uid://d1bvnpdejkke5" path="res://launcher/login/login.tscn" id="10_5yx4f"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_vob56"]
 texture = ExtResource( "3_imjjj" )
@@ -184,6 +185,8 @@ expand_icon = true
 [node name="Credits" parent="Background" instance=ExtResource( "7_yy8pa" )]
 
 [node name="UnableToConnect" parent="Background" instance=ExtResource( "9_mogc3" )]
+
+[node name="Login" parent="Background" instance=ExtResource( "10_5yx4f" )]
 
 [connection signal="pressed" from="Background/content/StartGamee" to="Background/content/StartGamee" method="_on_start_gamee_pressed"]
 [connection signal="pressed" from="Background/content/SettingsButton" to="." method="_on_SettingsButton_pressed"]

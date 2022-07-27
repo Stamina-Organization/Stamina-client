@@ -20,6 +20,7 @@ config/icon="res://icon.png"
 ChangeScene="*res://utilities/loading/ChangeScene.gd"
 HandlerToServer="*res://utilities/ServerHandling/HandlerToServer.gd"
 Connexion="*res://utilities/ServerHandling/Connexion.gd"
+SaveFile="*res://utilities/Save/SaveFile.gd"
 
 [input]
 

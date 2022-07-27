@@ -5,13 +5,15 @@ extends Control
 @onready var connexion_false = preload("res://assets/icons/connexion_false.png")
 @onready var statuts = $Background/content/ConnexionState
 
+@onready var login_windows = $Background/Login
 @onready var settings_windows = $Background/Settings
 @onready var credits_windows = $Background/Credits
 @export var show_settings: bool = false
 @export var show_credits: bool = false
 
 func _ready():
-	pass
+	if SaveFile.game_data["connected"] == true:
+		login_windows.hide()
 
 func _on_SettingsButton_pressed():
 	if show_settings == false:

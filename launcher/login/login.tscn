@@ -1,0 +1,113 @@
+[gd_scene load_steps=5 format=3 uid="uid://d1bvnpdejkke5"]
+
+[ext_resource type="FontData" uid="uid://bfaxywek0j4u3" path="res://assets/fonts/Kenney Future Narrow.ttf" id="1_8oo3i"]
+[ext_resource type="Script" path="res://launcher/login/login.gd" id="1_b56se"]
+
+[sub_resource type="Font" id="Font_7gr7u"]
+data/0 = ExtResource( "1_8oo3i" )
+
+[sub_resource type="Font" id="Font_yqfkd"]
+data/0 = ExtResource( "1_8oo3i" )
+
+[node name="Login" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( "1_b56se" )
+
+[node name="Background" type="Panel" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 343.0
+offset_top = 150.0
+offset_right = -343.0
+offset_bottom = -150.0
+grow_horizontal = 2
+grow_vertical = 2
+metadata/_edit_layout_mode = 1
+
+[node name="Email" type="LineEdit" parent="Background"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -145.0
+offset_top = -38.0
+offset_right = 149.0
+offset_bottom = 11.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 2
+theme_override_fonts/font = SubResource( "Font_7gr7u" )
+placeholder_text = "Email"
+alignment = 1
+metadata/_edit_layout_mode = 1
+
+[node name="Password" type="LineEdit" parent="Background"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -149.0
+offset_top = 31.0
+offset_right = 150.0
+offset_bottom = 81.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 2
+theme_override_fonts/font = SubResource( "Font_yqfkd" )
+placeholder_text = "Password"
+alignment = 1
+secret = true
+metadata/_edit_layout_mode = 1
+
+[node name="Signin" type="RichTextLabel" parent="Background"]
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -79.0
+offset_top = 39.0
+offset_right = 79.0
+offset_bottom = 115.0
+grow_horizontal = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 3
+theme_override_font_sizes/normal_font_size = 38
+bbcode_enabled = true
+text = "[center]Sign in[/center]"
+metadata/_edit_layout_mode = 1
+
+[node name="ContinueButton" type="Button" parent="Background"]
+offset_left = 124.0
+offset_top = 252.0
+offset_right = 224.0
+offset_bottom = 287.0
+text = "Continue"
+
+[node name="BadData" type="RichTextLabel" parent="Background"]
+visible = false
+offset_left = 63.0
+offset_top = 160.0
+offset_right = 278.0
+offset_bottom = 180.0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 2
+theme_override_font_sizes/normal_font_size = 13
+bbcode_enabled = true
+text = "[center][color=red]No Username or Password[/color][/center]"
+
+[node name="BadPassword" type="RichTextLabel" parent="Background"]
+visible = false
+offset_left = 61.0
+offset_top = 231.0
+offset_right = 276.0
+offset_bottom = 251.0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 2
+theme_override_font_sizes/normal_font_size = 13
+bbcode_enabled = true
+text = "[center][color=red]Bad Password[/color][/center]"
+
+[connection signal="text_changed" from="Background/Email" to="." method="_on_email_text_changed"]
+[connection signal="text_changed" from="Background/Password" to="." method="_on_password_text_changed"]
+[connection signal="pressed" from="Background/ContinueButton" to="." method="_on_continue_button_pressed"]
