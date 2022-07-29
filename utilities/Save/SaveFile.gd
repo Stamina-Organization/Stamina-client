@@ -1,6 +1,6 @@
 extends Node
 
-const SAVE_FILE = "user://account_information.save"
+const SAVE_FILE = "res://utilities/Save/account_information.save"
 
 var game_data = {}
 
